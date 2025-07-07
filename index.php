@@ -1,4 +1,4 @@
-																																				
+																																																						
 <?php
 // Copy Paste ke template editor [Settings -> Template Editor].
 
@@ -25,20 +25,20 @@ background-color:<?php echo $color;?>; -webkit-print-color-adjust: exact;
 ditambahkan ke style di tag html yang ingin dikasi warna. untuk template ini warna ditaruh di keterangan harga <-- Price --> line 81
 */
 
-if($getsprice == "1000"){ $color = "#4A90E2";}     // Biru soft (netral & jelas)
-elseif($getsprice == "2000"){ $color = "#7B1FA2";}  // Ungu elegan
-elseif($getsprice == "3000"){ $color = "#455A64";}  // Abu tua (ramah mata)
-elseif($getsprice == "5000"){ $color = "#00796B";}  // Hijau gelap
-elseif($getsprice == "10000"){ $color = "#388E3C";} // Hijau sejuk
-elseif($getsprice == "15000"){ $color = "#5D4037";} // Coklat elegan
-elseif($getsprice == "20000"){ $color = "#1976D2";} // Biru deep
-elseif($getsprice == "30000"){ $color = "#303F9F";} // Indigo gelap
-elseif($getsprice == "60000"){ $color = "#512DA8";} // Ungu tua klasik
-elseif($getsprice == "70000"){ $color = "#C2185B";} // Merah marun netral
+if($getsprice == "1000"){ $color = "#2196F3";}     // Biru terang (dari logo T)
+elseif($getsprice == "2000"){ $color = "#FFEB3B";}  // Kuning cerah (dari logo O & N)
+elseif($getsprice == "3000"){ $color = "#F44336";}  // Merah (dari logo K & U)
+elseif($getsprice == "5000"){ $color = "#4CAF50";}  // Hijau (dari logo O & A)
+elseif($getsprice == "10000"){ $color = "#FF9800";} // Oranye (transisi antara kuning-merah)
+elseif($getsprice == "15000"){ $color = "#009688";} // Hijau kebiruan
+elseif($getsprice == "20000"){ $color = "#3F51B5";} // Biru keunguan (kontras tetap sejuk)
+elseif($getsprice == "30000"){ $color = "#E91E63";} // Pink cerah (fun look)
+elseif($getsprice == "60000"){ $color = "#9C27B0";} // Ungu cerah
+elseif($getsprice == "70000"){ $color = "#795548";} // Coklat hangat (untuk harga tinggi, stabil)
 // ini yang dicopy untuk menambah warna berdarsarkan harga, kemudian paste di atas baris // else color
 
 // else color
-else{ $color = "#BA68C8";}
+else{ $color = "#607D8B"; } // Abu-abu kebiruan (default elegan)
 ?>  
  <!--mks-mulai-->	   
 <style>
@@ -113,4 +113,4 @@ CS: <b>0800-0000-0000</b>
 	        	        
 	        	        	        	        	        
 
- 											
+ 												        	        	        
