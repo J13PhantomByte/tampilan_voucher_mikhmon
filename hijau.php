@@ -9,3 +9,4 @@ elseif($getsprice == "30000"){ $color = "#4CAF50";}
 elseif($getsprice == "60000"){ $color = "#4CAF50";}
 elseif($getsprice == "70000"){ $color = "#4CAF50";}
 else{ $color = "#4CAF50"; }
+
