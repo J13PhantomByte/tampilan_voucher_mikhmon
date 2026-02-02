@@ -3,3 +3,5 @@
 ```bash
   <div style="float:right;padding:1px;text-align:right;width:70%;margin:0 5px -20px 0;"><?= $qrcode ?></div>
 ```
+
+LINK LOGO : https://www.textstudio.com/new
